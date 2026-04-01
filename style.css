@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(45deg,grey,white);
+}
+h1{
+    color: grey;
+    font-weight: bold;
+}
+.typing-text::after{
+    content:"-everything happens for a reason";
+    animation:typing 3s infinite;
+    font-size: 13px;
+    color: grey;
+}
+@keyframes typing{
+    50%{content:"There is no progress";}
+}
